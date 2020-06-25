@@ -1,13 +1,16 @@
 # frontendmentor-challenges
 
+<p align="center">
+  ✅ done | *️⃣ comment  | ☑ need review
+</p>
 
 ## Challenges
 
 01 - Four Card Feature Section ✅
 
-02 - Fylo Data Storage Component ✅
+02 - Fylo Data Storage Component ☑
 
-03 - Coding Bootcamp Testimonials Slider ✅ no-responsive 
+03 - Coding Bootcamp Testimonials Slider *️⃣ no-responsive 
 
 04 - Base Apparel Coming Soon ✅
 
