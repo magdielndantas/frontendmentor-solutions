@@ -1,0 +1,139 @@
+:root{
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+body{
+    background-color: var(--very-light-gray);
+    color: var(--very-dark-blue); 
+
+    font-size: 15px;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 100px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 40px 0;
+
+    font-size: 32px;
+
+    max-width: 600px;
+}
+
+header span{
+    font-weight: 200;
+}
+
+header strong{
+    font-weight: 600;
+}
+
+header p{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+
+    margin-top: 10px;
+    color: var(--grayish-blue);
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.card{
+    width: auto;
+    max-width: 300px;
+    min-height: 200px;
+
+    position: relative;
+
+    background-color: white;
+
+    margin: 15px;
+    padding: 20px 30px;
+    
+    border-radius: 4px;
+    box-shadow: 0px 6px 10px -3px rgba(0, 0, 0, 0.1);
+}
+
+.card p{
+    margin-top: 5px;
+    color: var(--grayish-blue);
+}
+
+.card img{
+    width: 50px;
+
+    position: absolute;
+
+    right: 15px;
+    bottom: 15px;
+}
+
+.border-top-red{
+    border-top: 4px solid var(--red);
+}
+
+.border-top-cyan{
+    border-top: 4px solid var(--cyan);
+}
+
+.border-top-orange{
+    border-top: 4px solid var(--orange);
+}
+
+.border-top-blue{
+    border-top: 4px solid var(--blue);
+}
+
+@media (max-width: 780px) {
+    body{
+        padding: 0 10px;
+    }
+    header{
+        font-size: 22px;
+    }
+
+    header p{
+        font-size: 13px;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+}
