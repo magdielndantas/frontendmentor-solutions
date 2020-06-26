@@ -14,6 +14,8 @@
 
 04 - Base Apparel Coming Soon ✅
 
+05 - Intro Component With Signup Form ✅
+
 ## Technologies
 
 -  [HTML][HTML]
