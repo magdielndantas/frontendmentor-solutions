@@ -18,15 +18,31 @@
   </section>
   <section class="sign-up">
     <header><p><span>Try it free 7 days</span> then $20/mo. thereafter</p></header>
-    <form action="#">
-      <input type="text" name="first-name" placeholder="First Name">
-      <label for="first-name">First Name</label>
-      <input type="text" name="last-name" placeholder="Last Name">
-      <label for="last-name">Last Name</label>
-      <input type="email" name="email" placeholder="Email Address">
-      <label for="email">Email Address</label>
-      <input type="password" name="password" placeholder="Password">
-      <label for="password">Password</label>
+    <form action="">
+      <div class="field">      
+        <input type="text" name="firstName" placeholder="First Name" required>
+        <label for="firstName">First Name</label>
+        <img src="./images/icon-error.svg" class="icon-error" alt="icon-error">
+        <span class="error"></span>
+      </div>
+      <div class="field">
+        <input type="text" name="lastName" placeholder="Last Name" required>
+        <label for="lastName">Last Name</label>
+        <img src="./images/icon-error.svg" class="icon-error" alt="icon-error">
+        <span class="error"></span>
+      </div>
+      <div class="field">
+        <input type="email" name="email" placeholder="Email Address" required>
+        <label for="email">Email Address</label>
+        <img src="./images/icon-error.svg" class="icon-error" alt="icon-error">
+        <span class="error"></span>
+      </div>
+      <div class="field">
+        <input type="password" name="password" placeholder="Password" required>
+        <label for="password">Password</label>
+        <img src="./images/icon-error.svg" class="icon-error" alt="icon-error">
+        <span class="error"></span>
+      </div>
       <button type="submit">Claim your free trial</button>
       <p>By clicking the button, you are agreeing to our <a href="">Terms and Services</a></p>
     </form> 
@@ -39,5 +55,7 @@
     </p>
   </footer>
 -->
+
+<script src="script.js"></script>
 </body>
 </html>
