@@ -14,6 +14,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: var(--red);
+}
+
 *, button, input{
     border: 0;
     outline: 0;
@@ -26,16 +31,175 @@ html, body{
 }
 
 body{
+    max-width: 1440px;
+
     font-size: 16px;
     color: #fcfffd;
+
+    background: url('./images/bg-intro-desktop.png') var(--red);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+
+    padding: 0 165px;
+}
+
+.text{
+    max-width: 500px;
+
+    padding: 10px;
+}
+
+.text h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+
+    margin-bottom: 20px;
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 540px;
+}
+
+.sign-up header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 540px;
+    height: 56px;
+
+    background-color: var(--blue);
+
+    border-bottom: 2px solid var(--dark-blue);
+    border-radius: 10px;
+
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.2);
+
+    font-weight: 400;
+
+    color: #fcfffd;
+
+    margin-bottom: 20px;
+}
+
+.sign-up header p span{
+    font-weight: 600;
+}
+
+.sign-up form{
+    width: 100%;
+    height: 475px;
+
+    background: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid var(--grayish-blue);
+    border-radius: 10px;
+
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.2);
+
+    padding: 40px;
+}
+
+.sign-up form label{
+    display: none;
+}
+
+.sign-up form input{
+    width: 100%;
+    height: 56px;
+
+    border: 1px solid var(--grayish-blue);
+    border-radius: 5px;
+
+    padding: 0 30px;
+    margin-bottom: 25px;
+    
+    align-items: center;
+
+    font-weight: 600;
+    color: var(--dark-blue);
+}
+
+.sign-up form button{
+    width: 100%;
+    height: 56px;
+
+    background-color: var(--green);
+
+    border-bottom: 2px solid #55AB86;
+    border-radius: 5px;
+
+    color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.12em; 
+}
+
+.sign-up form p{
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--grayish-blue);
+
+    margin-top: 10px;
+}
+
+.sign-up form p a{
+    font-weight: 700;
 }
 
 @media (max-width: 375px){
     body{
         background: url('./images/bg-intro-mobile.png') var(--red);
+        flex-direction: column;
+
+        padding: 20px;
+
+        text-align: center;
+    }
+
+    .text{
+        margin-top: 40px;
+    }
+
+    .text h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .sign-up header{
+        padding: 20px;
+        height: auto;
+
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .sign-up form{
+        margin-bottom: 50px;
     }
 
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+
 .attribution a { color: hsl(228, 45%, 44%); }
