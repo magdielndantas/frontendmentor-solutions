@@ -33,7 +33,6 @@ body{
     font-size: 16px;
 }
 
-.box,
 .our-community,
 .sign-up,
 .why-us{
@@ -60,6 +59,8 @@ main.box{
 
     max-width: 600px;
     border-radius: 10px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .our-community{
@@ -93,14 +94,65 @@ main.box{
 
 .group{
     display: flex;
+
+    width: 100%;
 }
 
 .sign-up{
+    display: flex;
+    flex-direction: column;
+
     background-color: var(--cyan);
 
     border-radius: 0px 0px 0px 10px;
 
-    width: 50%;
+    width: 100%;
+}
+
+.sign-up h1{
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.sign-up h1 span{
+    font-weight: normal;
+    font-size: 12px;
+
+    color: var(--light-gray);
+}
+
+.sign-up p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--light-gray);
+}
+
+.sign-up button{
+    height: 40px;
+    background: var(--bright-yellow);
+    outline: none;
+
+    font-weight: bold;
+    color: #ffffff;
+
+    margin-top: 15px;
+
+    border: none;
+    border-radius: 8px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+
+    cursor: pointer;
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    transition: ease-in-out .25s;
+}
+
+.sign-up button:hover{
+    opacity: .6;
 }
 
 .why-us{
@@ -108,7 +160,7 @@ main.box{
 
     border-radius: 0px 0px 10px 0;
 
-    width: 50%;
+    width: 100%;
 }
 
 .why-us pre{
@@ -116,4 +168,19 @@ main.box{
     font-weight: 400;
     color: var(--light-gray);
 
+}
+
+@media (max-width: 600px){
+    body{
+        padding: 30px;
+    }
+    .group{
+        flex-direction: column;
+    }
+    .sign-up{
+        border-radius: 0;
+    }
+    .why-us{
+        border-radius: 0px 0px 10px 10px;
+    }
 }
