@@ -16,6 +16,9 @@
 
 05 - Intro Component With Signup Form ✅
 
+06 - Single Price Grid Component ✅
+
+
 ## Technologies
 
 -  [HTML][HTML]
