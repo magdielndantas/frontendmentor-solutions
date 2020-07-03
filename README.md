@@ -1,10 +1,10 @@
-# frontendmentor-challenges
+# Challenges from Fronend Mentor
 
 <p align="center">
-  ✅ done ☑ need review
+  Status:✅ Done ☑ Need review ✳ To do
   <br/>
   <br/>
-  Difficulty: 🟤 Newbie, 🟣 Junior, 🟡 Intermediate, 🟠 Advanced
+  Difficulty: 🟤 Newbie 🟣 Junior 🟡 Intermediate 🟠 Advanced
 </p>
 
 ## Challenges
@@ -22,6 +22,8 @@
 06 - Single Price Grid Component ✅ 🟤
 
 07 - Ping Component With Signup Form ✅ 🟤
+
+08 - Huddle Landing Page Whith Alternating Feature Blocks ✳ 🟤
 
 
 ## Technologies
