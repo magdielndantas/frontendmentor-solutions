@@ -1,24 +1,27 @@
 # frontendmentor-challenges
 
 <p align="center">
-  ✅ done | ☑ need review
+  ✅ done ☑ need review
+  <br/>
+  <br/>
+  Difficulty: 🟤 Newbie, 🟣 Junior, 🟡 Intermediate, 🟠 Advanced
 </p>
 
 ## Challenges
 
-01 - Four Card Feature Section ✅
+01 - Four Card Feature Section ✅ 🟤
 
-02 - Fylo Data Storage Component ☑
+02 - Fylo Data Storage Component ☑ 🟤
 
-03 - Coding Bootcamp Testimonials Slider ☑ no-responsive 
+03 - Coding Bootcamp Testimonials Slider ☑ no-responsive 🟤
 
-04 - Base Apparel Coming Soon ✅
+04 - Base Apparel Coming Soon ✅ 🟤
 
-05 - Intro Component With Signup Form ✅
+05 - Intro Component With Signup Form ✅ 🟤
 
-06 - Single Price Grid Component ✅
+06 - Single Price Grid Component ✅ 🟤
 
-07 - Ping Component With Signup Form ✅
+07 - Ping Component With Signup Form ✅ 🟤
 
 
 ## Technologies
