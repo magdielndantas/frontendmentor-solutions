@@ -45,6 +45,8 @@ body{
     margin: auto;
 
     padding: 0 100px;
+
+    position: relative;
 }
 
 .text{
@@ -262,7 +264,8 @@ body{
 
 .attribution { 
     font-size: 11px;
-    text-align: center; 
+
+    margin-top: 40px;
 }
 
 .attribution a { color: hsl(228, 45%, 44%); }
