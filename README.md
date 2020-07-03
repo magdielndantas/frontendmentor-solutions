@@ -18,6 +18,8 @@
 
 06 - Single Price Grid Component ✅
 
+07 - Ping Component With Signup Form ✅
+
 
 ## Technologies
 

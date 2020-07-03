@@ -1,0 +1,195 @@
+:root{
+    --blue: hsl(223, 87%, 63%);
+    --pale-blue: hsl(223, 100%, 88%);
+    --light-red: hsl(354, 100%, 66%);
+    --gray: hsl(0, 0%, 82%);
+    --verydark-blue: hsl(209, 33%, 12%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html, body{
+    height: 100%;
+}
+
+html{
+    font-family: 'Libre Franklin', sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+body{
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 20px;
+}
+
+header{
+    margin-top: 80px;
+
+    text-align: center;
+}
+
+header h1{
+    margin-top: 30px;
+
+    font-weight: 300;
+    color: var(--gray);
+}
+
+header h1 span{
+    font-weight: 700;
+    color: var(--verydark-blue);
+}
+
+header p{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--verydark-blue);
+}
+
+form{
+    margin: 30px 0 60px 0;
+    display: flex;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+span.error.active{
+    color: var(--light-red);
+    font-weight: 600;
+    font-size: 12px;
+    font-style: italic;
+    margin: 8px 0 0 20px;
+}
+
+form input{
+    width: 420px;
+    height: 50px;
+
+    border: 1px solid var(--gray);
+    border-radius: 30px;
+
+    padding-left: 30px;
+}
+
+::-webkit-input-placeholder {
+    color: var(--gray);
+ }
+
+form button{
+    width: 150px;
+    height: 50px;
+
+    border: none;
+    border-radius: 30px;
+
+    color: #ffffff;
+    background-color: var(--blue);
+
+    margin-left: 10px;
+    
+    box-shadow: 0px 1px 3px var(--pale-blue);
+
+    transition: ease-in-out opacity .25s;
+    cursor: pointer;
+}
+
+form button:hover{
+    opacity: .8;
+}
+
+.illustration{
+    width: 600px;
+}
+
+footer{
+    margin: 60px 0 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--gray);
+}
+
+footer div{
+    display: flex;
+}
+
+footer div a{
+    color: var(--blue);
+
+    border: 1px solid var(--gray);
+    border-radius: 50%;
+
+    font-size: 15px;
+
+    padding: 6px;
+    margin-right: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    flex-shrink: 0;
+
+    transition: all .25s;
+}
+
+footer div a:hover{
+    color: white;
+    background-color: var(--blue);
+}
+
+p.copyright{
+    font-size: 14px;
+
+    margin: 20px 0 20px 0;
+}
+
+
+@media (max-width: 700px){
+    body{
+        padding: 0 30px;
+    }
+    
+    header h1{
+        font-size: 18px;
+    }
+
+    header p{
+        font-size: 11px;
+    }
+
+    form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form, form div, form div input, form button, .illustration{
+        width: 100%;
+    }
+
+    form div{
+        margin-bottom: 20px;
+    }
+
+    form div input, form button{
+        height: 40px;
+    }
+}
