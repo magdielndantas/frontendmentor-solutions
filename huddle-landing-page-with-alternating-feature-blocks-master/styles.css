@@ -57,7 +57,7 @@ section{
 
     background: url('images/bg-hero-desktop.svg') var(--very-pale-cyan);
 
-    height: 100vh;
+    height: 100%;
 }
 
 .home header{
@@ -169,7 +169,7 @@ footer{
     display: flex;
     justify-content: center;
 
-    height: 80vh;
+    height: 100%;
 
     background-color: var(--very-dark-cyan);
 
@@ -191,7 +191,7 @@ footer .get-started{
 
     border-radius: 10px;
 
-    width: 700px;
+    width: 70%;
     height: 250px;
 }
 
@@ -282,3 +282,58 @@ ul li img{
 
 .attribution { font-size: 11px; text-align: center; position: absolute; bottom: 6px; color: var(--very-pale-cyan);}
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (max-width: 768px){
+    body{
+        text-align: center;
+        font-size: 14px;
+    }
+    .home {
+        height: 100%;
+    }
+    .inner-home{
+        flex-direction: column;
+    }
+    .inner-home div h1 {
+        font-size: 26px;
+    }
+    section{
+        flex-direction: column;
+    }
+
+    .article{
+        flex-direction: column;
+        justify-content: center;
+        padding: 3em;
+
+    }
+
+    .article img {
+        width: 100%;
+    }
+    .inner-home img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer{
+        height: 100%;
+        padding: 30px;
+    }
+    footer .info{
+        flex-direction: column;
+        margin-top: 200px;
+        text-align: left;
+    }
+    footer .info ul{
+        margin-top: 20px;
+    }
+
+    footer .get-started h1{
+        font-size: 22px;
+    }
+    footer .get-started button{
+        font-size: 15px;
+        width: 70%;
+    }
+}

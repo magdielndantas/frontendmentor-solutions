@@ -23,7 +23,7 @@
 
 07 - Ping Component With Signup Form ✅ 🟤
 
-08 - Huddle Landing Page Whith Alternating Feature Blocks ✳ 🟤
+08 - Huddle Landing Page Whith Alternating Feature Blocks ✅ 🟤
 
 
 ## Technologies
